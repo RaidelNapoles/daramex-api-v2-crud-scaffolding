@@ -113,7 +113,7 @@ import {{ LoggerService }} from '@app/common/services';
 import {{ UniqueEntityID }} from '@ddd/domain/base';
 import {{ Inject }} from '@nestjs/common';
 import {{ CommandHandler, ICommandHandler }} from '@nestjs/cqrs';
-import {{ I{class_name}Repository }} from '../../../domain/repositories/iuser-settings.repository';
+import {{ I{class_name}Repository }} from '../../../domain/repositories/i{resource_name}.repository';
 import {{ RepositoryNames }} from 'apps/remittance/src/infrastructure/repositories';
 
 export class Delete{class_name}Command {{
