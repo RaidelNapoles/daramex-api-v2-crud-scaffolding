@@ -6,3 +6,4 @@ from .domain_repository import *
 from .infrastructure_repository import *
 from .query_handler import *
 from .command_handler import *
+from .controller import *

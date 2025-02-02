@@ -130,6 +130,15 @@ def scaffold_command_handlers(resource: str):
     )
 
 
+def scaffold_controller(resource: str):
+    file_builder(
+        resource,
+        BASE_CONTROLLER_DIR_PATH,
+        CONTROLLER_EXTENSION,
+        CONTROLLER_CODE_TEMPLATE,
+    )
+
+
 def scaffold(resource: str):
     scaffold_dtos(resource)
     scaffold_persistence(resource)
@@ -139,6 +148,7 @@ def scaffold(resource: str):
     scaffold_infrastructure_repository(resource)
     scaffold_query_handlers(resource)
     scaffold_command_handlers(resource)
+    scaffold_controller(resource)
 
 
 if __name__ == "__main__":
