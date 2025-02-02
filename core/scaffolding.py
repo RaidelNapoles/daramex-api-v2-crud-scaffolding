@@ -1,5 +1,5 @@
 from .constants import *
-from .boirlerplate import *
+from .boirlerplate_templates import *
 from .file_creator import file_builder
 
 
