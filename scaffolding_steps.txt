@@ -1,0 +1,5 @@
+Pasos para crear el scaffolding para un CRUD:
+1- Crear los DTO (create, read, update)
+2- Crear la entidad de persistencia (en infrastructure)
+3- Agregar la entidad creada al index de entidades (en la carpeta persistence) (lo dejemos para el final)
+4- 
