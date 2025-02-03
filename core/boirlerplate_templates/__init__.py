@@ -8,3 +8,4 @@ from .controller import *
 from .domain_entity import *
 from .mapper import *
 from .persistence import *
+from .import_statements import *

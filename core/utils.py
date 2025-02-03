@@ -20,6 +20,11 @@ def get_dir_path(base_dir: str, resource_name: str = None):
     return dir_path
 
 
+def get_file_content(file_path: str):
+    with open(file_path, "r") as file:
+        return file.read()
+
+
 if __name__ == "__main__":
     print(to_camel_case("shop-product-item"))
     print(to_class_name("shop-product-item"))

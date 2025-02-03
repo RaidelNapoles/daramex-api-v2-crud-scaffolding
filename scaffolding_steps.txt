@@ -1,5 +1,15 @@
 Pasos para crear el scaffolding para un CRUD:
-1- Crear los DTO (create, read, update)
-2- Crear la entidad de persistencia (en infrastructure)
-3- Agregar la entidad creada al index de entidades (en la carpeta persistence) (lo dejemos para el final)
-4- 
+1- Crear los DTO (create, read, update) (capa application)
+2- Crear la entidad de persistencia (capa infrastructure)
+3- Agregar la entidad creada al index de entidades de persistencia (capa infrastructure) (pendiente)
+4- Crear la entidad del dominio (capa domain)
+5- Crear el mapper (capa infrastructure)
+6- Crear el repositorio del dominio (capa domain)
+7- Crear el repositorio de infrastructure (capa infrastructure)
+8- Agregar el repositorio creado al index de repositorios (capa infrastructure) (pendiente)
+9- Crear los query handlers (get-all y get-one)
+10- Agregar los handlers al index de query handlers (capa application) (pendiente)
+11- Crear los commands handlers (create, update, delete)
+12- Agregar los handlers al index de command handlers (capa application) (pendiente)
+13- Crear el controlador
+14- Agregar el controlador al index de controladores (capa presentation) (pendiente)

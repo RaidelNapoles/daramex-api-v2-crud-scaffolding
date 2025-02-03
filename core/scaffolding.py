@@ -1,6 +1,6 @@
 from .constants import *
 from .boirlerplate_templates import *
-from .file_creator import file_builder
+from .file_creator import *
 
 
 def scaffold_dtos(resource: str):
@@ -41,6 +41,13 @@ def scaffold_persistence(resource: str):
         BASE_PERSISTENCE_DIR_PATH,
         PERSISTENCE_EXTENSION,
         PERSISTENCE_CODE_TEMPLATE,
+    )
+    add_or_update_index(
+        resource,
+        BASE_PERSISTENCE_DIR_PATH,
+        PERSISTENCE_EXTENSION,
+        INDEX_PERSISTENCE_CODE_TEMPLATE,
+        PERSISTENCE_ENTITY_IMPORT_STATEMENT_TEMPLATE,
     )
 
 
